@@ -24,17 +24,29 @@
       "type": "string",
       "required": true
     },
-    "geometry": {
+    "features": {
       "type": "json",
       "required": true
     },
-    "image": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+    "url": {
+      "type": "text",
+      "required": true
+    },
+    "owner": {
+      "type": "string",
+      "required": true
+    },
+    "telp": {
+      "type": "string",
+      "required": true
+    },
+    "url_public_id": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
